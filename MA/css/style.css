@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Next Art";
+    src: url(../media/font/NEXT\ ART_Bold.otf);
+}
+
+
+h1{
+    font-family: "Next Art";
+    font-size: 50px;
+    margin-top: 500px;
+}
+
+
+body{
+    font-family: Verdana,  sans-serif;
+}
+
+.wrapper{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.header{
+   height: 100vh;
+   background-image: url(../media/img/Rectangle\ 1.png);
+   background-size: cover;
+   color: white;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu .menu_item{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.promo{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.promo-right{
+    display: flex; 
+    flex-direction: column;
+    gap: 40px;
+}
+
+.accent-button {
+    background: #1a3e3e;
+    display: inline-block;
+    padding: 16px 36px;
+    align-self: start;
+}
+
+.promo,
+.video,
+.programs,
+.direction,
+.blog,
+.gallery,
+.mail-out {
+    margin-top: 100px;
+}
+
+.video-container video {
+    width: 1180px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.programs {
+    background: #F3F5F4;
+    padding: 50px;
+}
+
+.programs-container {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.programs-left {
+    flex-direction: column;
+    display: flex;
+    gap: 40px;
+}
+
+.programs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.program-list__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
